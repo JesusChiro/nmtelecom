@@ -11,11 +11,11 @@
   --color-gray-violet: hsl(257, 7%, 63%);
   --color-dark-violet: hsl(257, 27%, 26%);
 }
+
 .contain__body {
-  background-color: #b7dafb;  
+  background-color: #b7dafb;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 ul {
@@ -23,17 +23,20 @@ ul {
   text-decoration: none;
 }
 .header {
-  height: 150px;
+  display: flex;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #19bff1;
   margin-bottom: 1.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  display: flex;
 }
 .container__header {
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  width: auto;
   align-items: center;
   justify-content: center;
 }
@@ -57,39 +60,41 @@ ul {
   align-items: center;
   width: auto;
   height: 50px;
-  padding-left: 250px;
+  padding-left: 270px;
+  margin: 0;
 }
 .header__links {
   display: flex;
   align-content: center;
   justify-content: center;
   text-decoration: solid;
-  font-size: 25px;
+  font-size: 24px;
   margin: 0;
 }
 .header__link a {
   display: flex;
+  gap: 20px;
   justify-content: center;
   text-decoration: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bolder;
   color: white;
-  width: 230px;
+  width: auto;
   height: auto;
-  padding: 10px 15px;
+  padding: 10px 25px ;
   margin: 0;
 }
 
 nav ul li a:hover {
   background: #19bff1;
-  height: 50px;
+  height: auto;
   text-align: center;
   align-content: center;
   border-radius: 50px;
-  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 3);
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 3);
 }
 
-.main__index{
+.main__index {
   margin-left: auto;
   margin-right: auto;
 }
@@ -211,9 +216,9 @@ nav ul li a:hover {
     transition: opacity 0.2s;
   }
 }
-@media screen and (min-width: 1367px) and (max-width: 1920px) {
+
   .header__nav {
-    padding-left: 150px;
+    padding-left: 100px;
   }
   .footer__logo {
     height: 150px;
@@ -240,14 +245,11 @@ nav ul li a:hover {
     text-decoration: none;
   }
 }
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container__header {
-    display: flex;
-    flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-    gap: 400px;
+    gap: 500px;
   }
   .header__nav {
     display: none;
@@ -255,7 +257,6 @@ nav ul li a:hover {
 
   .header__logo-menu {
     display: unset;
-    justify-items: right;
   }
   .footer__main {
     display: flex;
@@ -351,9 +352,9 @@ nav ul li a:hover {
   }
 }
 
-@media screen and (min-width: 200px) and (max-width: 500px) {
+@media screen and (min-width: 400px) and (max-width: 499px) {
   .container__header {
-    gap: 80px;
+    gap: 100px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -363,7 +364,105 @@ nav ul li a:hover {
   .header__logo-menu {
     display: unset;
   }
-    .footer__main {
+  .footer__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__right {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    align-items: center;
+  }
+
+  .footer__texto {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__texto p {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  .footer__logo {
+    display: flex;
+    width: 230px;
+    height: 170px;
+    padding-bottom: 20px;
+  }
+  .footer__logo img {
+    width: 230px;
+    height: 170px;
+  }
+  .footer__rrss {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 399px) {
+  .container__header {
+    margin-left: auto;
+    margin-right: auto;
+    gap: 80px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__logo-menu {
+    display: unset;
+  }
+  .footer__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__right {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    align-items: center;
+  }
+
+  .footer__texto {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__texto p {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  .footer__logo {
+    display: flex;
+    width: 230px;
+    height: 170px;
+    padding-bottom: 20px;
+  }
+  .footer__logo img {
+    width: 230px;
+    height: 170px;
+  }
+  .footer__rrss {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 199px) {
+  .header__nav {
+    display: none;
+  }
+
+  .contain__body {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footer__main {
     display: flex;
     flex-direction: column;
     align-items: center;
