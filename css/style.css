@@ -295,9 +295,9 @@ nav ul li a:hover {
     justify-content: center;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 500px) and (max-width: 767px) {
   .container__header {
-    gap: 200px;
+    gap: 300px;
   }
   .header__nav {
     display: none;
@@ -350,3 +350,7 @@ nav ul li a:hover {
   }
 }
 
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .container__header {
+    gap: 180px;
+  }}
