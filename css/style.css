@@ -223,7 +223,7 @@ nav ul li a:hover {
   .footer__logo {
     height: 150px;
   }
-}
+
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
   .header__nav {
     padding-left: 10px;
