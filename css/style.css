@@ -352,5 +352,8 @@ nav ul li a:hover {
 
 @media screen and (min-width: 200px) and (max-width: 500px) {
   .container__header {
-    gap: 180px;
+    gap: 80px;
+  }
+  .header__nav {
+    display: none;
   }}
