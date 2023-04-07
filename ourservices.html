@@ -19,24 +19,25 @@
 </head>
 
 <body class="contain__body">
-    <header class="header">
-        <div class="container__header">
-            <div class="header__logo"><a href="./index.html">
-                    <img src="./img/logo.png" alt="" /></a>
+           <header class="header">
+            <div class="container__header">
+                <div class="header__logo"><a href="./index.html">
+                        <img src="./img/logo.png" alt="" /></a>
+                </div>
+                <nav class="header__nav" id="nav">
+                    <ul class="header__links">
+                        <li class="header__link"><a href="./aboutus.html">About Us</a></li>
+                        <li class="header__link"><a href="./ourservices.html">Our Services</a></li>
+                        <li class="header__link"><a href="./ourcustomers.html">Main Customers</a></li>
+                        <li class="header__link"><a href="./contactus.html">Contactain Us</a></li>
+                    </ul>
+                </nav>
+                <div class="header__logo-menu" id="cerrar">
+                    <i class="fa-sharp fa-solid fa-bars fa-2xl" style="color: #f4f0f0;"></i>
+                </div>
+
             </div>
-            <nav class="header__nav">
-                <ul class="header__links">
-                    <li class="header__link"><a href="./aboutus.html">About Us</a></li>
-                    <li class="header__link"><a href="./ourservices.html">Our Services</a></li>
-                    <li class="header__link"><a href="./ourcustomers.html">Main Customers</a></li>
-                    <li class="header__link"><a href="./contactus.html">Contactain Us</a></li>
-                </ul>
-            </nav>
-            <div class="header__logo-menu">
-                <i class="fa-sharp fa-solid fa-bars fa-2xl" style="color: #f4f0f0;"></i>
-            </div>
-        </div>
-    </header>
+         </header>
     <main class="main container pt-5">
         <h2 class="title container__title">NUESTROS SERVICIOS</h2>
         <section class="row">
@@ -49,7 +50,8 @@
                 <div class="card-body">
                     <div class="info__description">
                         <h2 class="card-title title__card">Ingeniería de Data-Center</h2>
-                        <p class="card-text parrafo__card">Esta Solución que NMT implementa para las instalaciones de Data Center se
+                        <p class="card-text parrafo__card">Esta Solución que NMT implementa para las instalaciones de
+                            Data Center se
                             inició aprovechando las innovaciones tecnológicas y el gran crecimiento de la industria.
                             Impartiendo una filosofía de diseño flexible, mixto y modular, la solución se utiliza para
                             construir Data Center con costos efectivos de los clientes, cubriendo la consultoría,
@@ -60,24 +62,29 @@
             </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-3">
-                <div class="card shadow rounded-4"">
-                    <div class=" icon">
-                    <img class="card-img-top  p-2 rounded-4" src="https://i.postimg.cc/44c16MnM/12.jpg" alt="">
-                </div>
-                <div class="card-body">
-                    <div class="info__description">
-                        <h2 class="card-title title__card">Sistemas de Deteccion de Incendios</h2>
-                        <p class="card-text parrafo__card">Ofrecemos a nuestros clientes un servicio profesional de protección y
-                            extinción de incendios adecuado al entorno que se requiere proteger. La misión que tenemos
-                            inicia de una grandísima estrategia plasmada en una ingeniería de Campo, el suministro de
-                            equipos y materiales con altos estándares calidad, la implementación del sistema con
-                            personal calificado, el gerenciamiento del mismo por profesionales selectos y un permanente
-                            servicio post venta que permitirá mantener los sistemas en buen estado durante el ciclo de
-                            vida del equipo.</p>
-                        <input class="btn btn-primary" type=" button" value="Leer Más">
+                <div class="card shadow rounded-4">
+                    <div class="icon">
+                        <img class="card-img-top p-2 rounded-4" src="https://i.postimg.cc/44c16MnM/12.jpg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <div class="info__description">
+                            <h2 class="card-title title__card">Sistemas de Deteccion de Incendios</h2>
+                            <p class="card-text parrafo__card">Ofrecemos a nuestros clientes un servicio profesional de
+                                protección y
+                                extinción de incendios adecuado al entorno que se requiere proteger. La misión que
+                                tenemos
+                                inicia de una grandísima estrategia plasmada en una ingeniería de Campo, el suministro
+                                de
+                                equipos y materiales con altos estándares calidad, la implementación del sistema con
+                                personal calificado, el gerenciamiento del mismo por profesionales selectos y un
+                                permanente
+                                servicio post venta que permitirá mantener los sistemas en buen estado durante el ciclo
+                                de
+                                vida del equipo.</p>
+                            <input class="btn btn-primary" type=" button" value="Leer Más">
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-3">
                 <div class="card ">
@@ -207,6 +214,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
