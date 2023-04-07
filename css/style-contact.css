@@ -1,4 +1,27 @@
-.main__index {
+.contain__main {
+  justify-content: center;
+  align-items: center;
+  background-color: #b7dafb;
   margin-left: auto;
   margin-right: auto;
+}
+.contacto__maps {
+  justify-content: center;
+  align-content: center;
+  height: 800px;
+}
+
+.contain__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+ }
+.title_contain {
+  font-weight: bolder;
+  font-style: normal;
+  text-align: center;
+}
+body{
+  background-color: #b7dafb;
 }

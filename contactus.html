@@ -18,7 +18,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="contain__body">
+<body>
 
     <header class="header">
         <div class="container__header">
@@ -39,6 +39,63 @@
 
         </div>
     </header>
+    <main class="contain__main">
+        <h1 class="title_contain display-4 justify-content-center p-4" >Formularios de Contacto</h1>
+        <!-- .container-fluid>.row>.col-md-6>form -->
+        <div class="contain__item container-fluid p-4">
+            <div class="row justify-content-center">
+                <div class="col-md-12 p-4 shadow rounded-4">
+                    <form class="contain_form">
+                        <div class="mb-3 row">
+                            <label class="col-sm-2 col-form-label" for="">Nombres:</label>
+                            <div class="col-sd-10">
+                                <input type="text" class="form-control" placeholder="your full name" />
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label class="col-form-label" for="">Nro de Celular:</label>
+                            <div class="col-sd-10">
+                                <input type="text" class="form-control" placeholder="Coloque su empresa" />
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="input-email" class="form-label">Email Address:</label>
+                            <input id="input-email" type="text" class="form-control" placeholder="someone@gmail.com">
+                        </div>
+                        <div class="mb-3 row">
+                            <label class="col-sm-2 col-form-label" for="">Empresa:</label>
+                            <div class="col-sd-10">
+                                <input type="text" class="form-control" placeholder="Coloque su empresa" />
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label class="col-sm-2 col-form-label" for="">RUC:</label>
+                            <div class="col-sd-10">
+                                <input type="text" class="form-control" placeholder="Coloque su RUC" />
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="texto-descripcion">Detalle su solicitud:</label>
+                            <textarea class="form-control" name="" id="texto-descripcion" cols="30"
+                                rows="10"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Subir imagen referencia</label>
+                            <input type="file" class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                    </form>
+                </div>
+            </div>
+            <div class="contacto__maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15606.043073718743!2d-77.09098035!3d-12.0771453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2spe!4v1680884679882!5m2!1sen!2spe"
+                    width="450" height="800" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </main>
+
     <footer class="footer__main">
         <div class="footer__right">
             <div class="footer__logo"><a href="./index.html">
@@ -68,7 +125,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
