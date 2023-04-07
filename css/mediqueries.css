@@ -361,6 +361,15 @@
   .accordion-body {
     width: 250px;
   }
+  .contain__item {
+    display: flex;
+    flex-direction: column;
+  }
+  .maps {
+    height: 800px;
+    width: 290px;
+    position: relative;
+  }
   .footer__main {
     display: flex;
     flex-direction: column;

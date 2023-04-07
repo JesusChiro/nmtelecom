@@ -6,9 +6,8 @@
   margin-right: auto;
 }
 .contacto__maps {
-  justify-content: center;
-  align-content: center;
-  height: 800px;
+display: flex;
+  height:850px;
 }
 
 .contain__item {
@@ -24,4 +23,9 @@
 }
 body{
   background-color: #b7dafb;
+}
+.maps{
+  margin: auto;
+  border-radius: 20px;
+
 }
