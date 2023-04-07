@@ -173,6 +173,11 @@
     display: flex;
     flex-direction: column;
   }
+  .maps {
+    height: 800px;
+    width: 350px;
+    position: relative;
+  }
   .header__logo-menu {
     display: unset;
     cursor: pointer;
@@ -261,6 +266,15 @@
   }
   .accordion-body {
     width: 350px;
+  }
+  .contain__item {
+    display: flex;
+    flex-direction: column;
+  }
+  .maps {
+    height: 800px;
+    width: 350px;
+    position: relative;
   }
   .footer__main {
     display: flex;
