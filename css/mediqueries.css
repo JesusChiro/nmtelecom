@@ -257,10 +257,10 @@
     margin-right: auto;
     margin-bottom: 30px;
     margin-top: 30px;
-    width: 200px;
+    width: 400px;
   }
   .accordion-body {
-    width: 150px;
+    width: 350px;
   }
   .footer__main {
     display: flex;
@@ -329,7 +329,6 @@
     display: unset;
     cursor: pointer;
   }
-
   .contain_customers{
     margin-left: auto;
     margin-right: auto;
@@ -343,10 +342,10 @@
     margin-right: auto;
     margin-bottom: 30px;
     margin-top: 30px;
-    width: 150px;
+    width: 300px;
   }
   .accordion-body {
-    width: 100px;
+    width: 250px;
   }
   .footer__main {
     display: flex;

@@ -15,7 +15,7 @@
 }
 .accordion-body {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   width: 500px;
   margin-left: auto;
   margin-right: auto;
