@@ -6,7 +6,7 @@ $(document).ready(function(){
 
         if(status == "none"){
             $("#nav").css("display","block");
-        }else{
+                 }else{
             $("#nav").css("display","none");
         }
 
