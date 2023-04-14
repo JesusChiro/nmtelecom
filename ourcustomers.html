@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NMT</title>
-    <link rel="stylesheet" href="./css/style-customers.css">
-    <link rel="stylesheet" href="./css/style-nav.css">
     <link rel="stylesheet" href="./css/style-footer.css">
     <link rel="stylesheet" href="./css/mediqueries.css">
     <link rel="icon" type="image/vnd.microsoft.icon" href="./img/icons/wifi-signal.png">
@@ -18,7 +16,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="contain__body">
+<body class="c-body">
     <header class="header">
         <div class="container__header">
             <div class="header__logo"><a href="./index.html">
@@ -37,9 +35,10 @@
             </div>
         </div>
     </header>
-    <main class="contain_customers">
+    <main class="c-main">
+        <h1 class="title_contain display-4 justify-content-center p-4">NUESTROS CLIENTES</h1>
         <div class="accordion" id="accordionPanelsStayOpenExample">
-            <div class="accordion-item " style="background-color: #19BFF1;" >
+            <div class="accordion-item " style="background-color: #19BFF1;">
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
@@ -78,30 +77,37 @@
 
         </div>
     </main>
-    <footer class="footer__main">
-        <div class="footer__right">
-            <div class="footer__logo"><a href="./index.html">
-                    <img src="./img/logo.png" alt="" /></a>
-            </div>
-            <div class="footer__texto">
-                <p>Calle Enrique Cipriani 266, La Victoria</p>
-                <p>Cel: 954-193-884</p>
-                <p>Cel: 995-863-645</p>
-                <p> E-mail: <a
-                        href="mailto:info@nmtelecom.pe?Subject=Solicito%20cotizacion%20del%20servicio%20de">info@nmtelecom.pe</a>
-                </p>
-            </div>
-        </div>
-        <div class="footer__rrss">
-            <a href="https://wa.me/+51995863645?text=Hola%20quisiera%20informacion%20sobre%20los%20servicios%20que%20brindan"
-                target="_blank" class="whatsapp-btn"><i class="bi bi-whatsapp"></i>
-                <img class="btnwsp" src="././img/iconwp1.png" alt="">
-                <div class="joinchat__tooltip"> <i class="bi bi-person-circle"></i>
-                    <div class="text">¿Podemos ayudarte?</div>
+    <footer class="footer">
+        <div class="footer__main">
+            <div class="footer__right">
+                <div class="footer__logo"><a href="./index.html"><img alt="nmtelecom logo" src="./img/logo.png" /></a>
                 </div>
-            </a>
-            <a href="https://www.facebook.com/nmtelecom.pe/"><img class="footer__fb" src="./img/icons/facebook.png"
-                    alt=""></a>
+
+                <div class="footer__texto">
+                    <p>Calle Enrique Cipriani 266, La Victoria</p>
+
+                    <p>Cel: 954-193-884</p>
+
+                    <p>Cel: 995-863-645</p>
+
+                    <p>E-mail: <a
+                            href="mailto:info@nmtelecom.pe?Subject=Solicito%20cotizacion%20del%20servicio%20de">info@nmtelecom.pe</a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer__rrss">
+                <h4>Nuestras Redes Sociales</h4>
+                <div class="footer-icon">
+                    <a class="whatsapp-btn"
+                        href="https://wa.me/+51995863645?text=Hola%20quisiera%20informacion%20sobre%20los%20servicios%20que%20brindan"
+                        target="_blank">
+                        <img alt="whatsapp telecom" class="btnwsp" src="././img/iconwp1.png" />
+                    </a>
+                    <a href="https://www.facebook.com/nmtelecom.pe/">
+                        <img alt="facebook telecom" class="footer__fb" src="./img/icons/facebook.png" />
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

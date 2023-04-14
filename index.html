@@ -21,9 +21,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NMT</title>
-    <link href="./css/style.css" rel="stylesheet" />
-    <link href="./css/style-about.css" rel="stylesheet" />
-    <link href="./css/style-nav.css" rel="stylesheet" />
     <link href="./css/style-footer.css" rel="stylesheet" />
     <link href="./css/mediqueries.css" rel="stylesheet" />
     <link href="./img/icons/wifi-signal.png" rel="icon" type="image/vnd.microsoft.icon" />
@@ -42,7 +39,7 @@
     <meta name="author" content="NM TELECOM SAC">
 </head>
 
-<body class="body-index">
+<body class="c-body">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQFM6KQ" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
@@ -54,10 +51,10 @@
             </div>
             <nav class="header__nav" id="nav">
                 <ul class="header__links">
-                    <li class="header__link"><a href="#aboutus">About Us</a></li>
-                    <li class="header__link"><a href="./ourservices.html">Our Services</a></li>
-                    <li class="header__link"><a href="#customers">Main Customers</a></li>
-                    <li class="header__link"><a href="./contactus.html">Contactain Us</a></li>
+                    <li class="header__link"><a id="linknav" href="#aboutus">About Us</a></li>
+                    <li class="header__link"><a id="linknav2" href="#services">Our Services</a></li>
+                    <li class="header__link"><a id="linknav3" href="#customers">Main Customers</a></li>
+                    <li class="header__link"><a id="linknav4" href="./contactus.html">Contactain Us</a></li>
                 </ul>
             </nav>
             <div class="header__logo-menu" id="cerrar">
@@ -67,7 +64,7 @@
     </header>
     <main class="c-main ">
         <!-- slider 1 - objeto debajo de nav -->
-
+        <a name="services"></a>
         <div id="slider"> <!--contenedor principal -->
             <div id="slides"><!--contenedor que agrupa todos los div una detras de otro -->
                 <div id="overflow"><!--contenedor que agrupa el inner dentro del cuadro  -->
@@ -81,7 +78,7 @@
                                     <p class="slide-p">
                                         NMT ofrece vigilancia en vivo y al mejor costo
                                         en el área donde ud. desee, almacenando a la vez
-                                        todos los eventos suscitados
+                                        todos los eventos suscitados.
                                     </p>
                                     <button class="cta"> <a href="./ourservices.html">Conócenos...!</a> </button>
                                 </div>
@@ -103,7 +100,7 @@
                                     </p>
                                     <button class="cta"> <a href="./ourservices.html"> Conócenos...!</a></button>
                                 </div>
-                                <div>
+                                <div class="slide-img">
                                     <img class="img-slide-services" src="./img/index/container/img-3.png" alt="">
                                 </div>
                             </div>
@@ -116,11 +113,11 @@
                                         INSTALACION DE SISTEMA DE RADIO ENLACES</h2>
                                     <p class="slide-p">
                                         Mantén tus diferentes sedes interconectadas sin necesidad de cables
-                                        con nuestros equipos de largo alcance inalambrico
+                                        con nuestros equipos de largo alcance inalambrico.
                                     </p>
                                     <button class="cta"> <a href="./ourservices.html">Conócenos...!</a> </button>
                                 </div>
-                                <div>
+                                <div class="slide-img">
                                     <img class="img-slide-services" src="./img/index/container/radioenlaces.png" alt="">
                                 </div>
                             </div>
@@ -137,7 +134,7 @@
                                     </p>
                                     <button class="cta"> <a href="./ourservices.html"> Conócenos...!</a></button>
                                 </div>
-                                <div>
+                                <div class="slide-img">
                                     <img class="img-slide-services" src="./img/index/container/sw.png" alt="">
                                 </div>
                             </div>
@@ -149,67 +146,59 @@
 
         <!-- Quienes Somos -->
 
-
         <a name="aboutus"></a>
-        <div class="main container pt-5 pb-5">
-            <h2 class="title-about">Quienes Somos</h2>
-            <section class="container__aboutus row">
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <div class="card border-secondary shadow rounded-4">
-                        <img src="https://i.postimg.cc/cLr49TJn/aboutus.png" class="card-img-top  p-2 rounded-4"
-                            alt="...">
-                        <div class="card-body">
-                            <h1 class="card-title title__card">Quienes Somos</h1>
-                            <p class="card-text parrafo__card">En nuestro negocio nos hemos enfocado en Atender,
-                                Aconsejar,
-                                Manifestar, Conducir a nuestros clientes para crear sólidas y estrechas relaciones con
-                                ellos
-                                y ser parte de su negocio. Nuestra oferta se encuentra respaldada por aliados
-                                tecnológicos -
-                                reconocidos a nivel global - , y por nuestra cartera de servicios certificados y
-                                garantizados, en manos de un recurso humano totalmente capacitado.</p>
-                        </div>
-                    </div>
+        <h2 class="title-about">Sobre Nosotros</h2>
+        <section class="section-quienessomos">
+            <div class="card-b border-secondary shadow rounded-4">
+                <img class="img-card" src="https://i.postimg.cc/cLr49TJn/aboutus.png"
+                    class="card-img-top  p-2 rounded-4" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title title__card">Quienes Somos</h2>
+                    <p class="card-text parrafo__card">En nuestro negocio nos hemos enfocado en Atender,
+                        Aconsejar,
+                        Manifestar, Conducir a nuestros clientes para crear sólidas y estrechas relaciones con
+                        ellos
+                        y ser parte de su negocio. Nuestra oferta se encuentra respaldada por aliados
+                        tecnológicos -
+                        reconocidos a nivel global - , y por nuestra cartera de servicios certificados y
+                        garantizados, en manos de un recurso humano totalmente capacitado.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <div class="card border-secondary shadow rounded-4">
-                        <img src="https://i.postimg.cc/jqpXd3ps/ourmission.png" class="card-img-top  p-2 rounded-4"
-                            alt="...">
-                        <div class="card-body">
-                            <h1 class="card-title title__card">Nuestra Misión</h1>
-                            <p class="card-text parrafo__card">Satisfacer las necesidades de nuestros clientes a través
-                                de
-                                servicios de calidad, brindando soluciones efectivas en áreas de Redes de
-                                Telecomunicaciones, Fibra Óptica, Centrales Telefónicas, Sistemas Eléctricos, Sistemas
-                                de
-                                puesta a tierra y otras actividades afines.</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                        </div>
-                    </div>
+            </div>
+            <div class="card-b border-secondary shadow rounded-4">
+                <img class="img-card" src="https://i.postimg.cc/jqpXd3ps/ourmission.png"
+                    class="card-img-top  p-2 rounded-4" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title title__card">Nuestra Misión</h2>
+                    <p class="card-text parrafo__card">Satisfacer las necesidades de nuestros clientes a través
+                        de
+                        servicios de calidad, brindando soluciones efectivas en áreas de Redes de
+                        Telecomunicaciones, Fibra Óptica, Centrales Telefónicas, Sistemas Eléctricos, Sistemas
+                        de
+                        puesta a tierra y otras actividades afines.</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <div class="card border-secondary shadow rounded-4">
-                        <img src="https://i.postimg.cc/jdyhWQTy/ourvision.png" class="card-img-top  p-2 rounded-4"
-                            alt="...">
-                        <div class="card-body">
-                            <h1 class="card-title title__card">Nuestra Visión</h1>
-                            <p class="card-text parrafo__card">Ser la primera opcion de nuestros clientes en servicios
-                                en
-                                Redes de Telecomunicaciones, Fibra Óptica, Centrales Telefónicas, Sistemas Eléctricos,
-                                Sistemas de puesta a tierra y otras actividades afines. Líder en el medio, reconocida
-                                por su
-                                calidad de servicio, atención personalizada y oportuna.</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                        </div>
-                    </div>
+            </div>
+            <div class="card-b border-secondary shadow rounded-4">
+                <img class="img-card" src="https://i.postimg.cc/jdyhWQTy/ourvision.png"
+                    class="card-img-top  p-2 rounded-4" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title title__card">Nuestra Visión</h2>
+                    <p class="card-text parrafo__card">Ser la primera opcion de nuestros clientes en servicios
+                        en
+                        Redes de Telecomunicaciones, Fibra Óptica, Centrales Telefónicas, Sistemas Eléctricos,
+                        Sistemas de puesta a tierra y otras actividades afines. Líder en el medio, reconocida
+                        por su
+                        calidad de servicio, atención personalizada y oportuna.</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
-            </section>
-        </div>
-
+            </div>
+            </div>
+        </section>
 
         <!-- slider 2 - marcas de clientes -->
         <a name="customers"></a>
-        <section class="c-clientes">NUESTRO PRINCIPALES CLIENTES
+        <section class="c-clientes">
+            <h2 class="title-about"> Nuestros Principales Clientes</h2>
             <!-- <h2 class="text-customer"></h2> -->
             <div class="carrusel-clientes">
                 <div class="carrusel--">
@@ -254,7 +243,8 @@
         </section>
         <!-- slider 2 - marcas de proveedores -->
         <a name="customers"></a>
-        <section class="c-clientes">NUESTRO PRINCIPALES PROVEEDORES
+        <section class="c-clientes">
+            <h3 class="title-about">Nuestros Principales Proveedores</h3>
             <!-- <h2 class="text-customer"></h2> -->
             <div class="carrusel-clientes">
                 <div class="carrusel--">
@@ -279,7 +269,6 @@
                 </div>
             </div>
         </section>
-
     </main>
 
     <footer class="footer">
@@ -306,24 +295,10 @@
                     <a class="whatsapp-btn"
                         href="https://wa.me/+51995863645?text=Hola%20quisiera%20informacion%20sobre%20los%20servicios%20que%20brindan"
                         target="_blank">
-                        <img 
-                        alt="whatsapp telecom" 
-                        class="btnwsp" 
-                        src="././img/iconwp1.png" /> 
+                        <img alt="whatsapp telecom" class="btnwsp" src="././img/iconwp1.png" />
                     </a>
-
-                   <!--  <div class="joinchat__tooltip">
-                        <div class="text">
-                            <a class="whatsapp-btn"
-                                href="https://wa.me/+51995863645?text=Hola%20quisiera%20informacion%20sobre%20los%20servicios%20que%20brindan"
-                                target="_blank">Podemos ayudarte?
-                            </a>
-                        </div>
-                    </div> -->
                     <a href="https://www.facebook.com/nmtelecom.pe/">
-                    <img alt="facebook telecom" 
-                    class="footer__fb" 
-                    src="./img/icons/facebook.png" />
+                        <img alt="facebook telecom" class="footer__fb" src="./img/icons/facebook.png" />
                     </a>
                 </div>
             </div>
