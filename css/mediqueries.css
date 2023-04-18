@@ -240,14 +240,14 @@ nav ul li a:hover {
   filter: blur(8px);
   animation: glowing 20s linear infinite;
 }
-@keyframes glowing{
-  0%{
+@keyframes glowing {
+  0% {
     background-position: 0 0;
   }
-  50%{
+  50% {
     background-position: 400% 0;
   }
-  100%{
+  100% {
     background-position: 0 0;
   }
 }
@@ -1134,7 +1134,7 @@ nav ul li a:hover {
     filter: drop-shadow(30px 10px 4px hsla(240, 85%, 62%, 0.215));
   }
   .slide-img {
-    width: 210px;
+    width: 400px;
     height: 210px;
   }
   .img-slide-services {
@@ -1527,12 +1527,12 @@ nav ul li a:hover {
     filter: drop-shadow(30px 10px 4px hsla(240, 85%, 62%, 0.215));
   }
   .slide-img {
-    width: 210px;
+    width: 400px;
     height: 210px;
   }
   .img-slide-services {
-    width: 210px;
-    height: 210px;
+    width: 300px;
+    height: 300px;
     filter: drop-shadow(30px 10px 4px rgba(66, 21, 21, 0.345));
   }
   #slides .inner {
@@ -1631,7 +1631,7 @@ nav ul li a:hover {
     margin-bottom: 50px;
   }
   .title-about {
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 50px;
     color: white;
     text-align: center;
@@ -1689,6 +1689,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     width: 350px;
+    padding-top: 40px;
     padding-bottom: 40px;
   }
 
@@ -1756,12 +1757,13 @@ nav ul li a:hover {
     gap: 70px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
   .carrusel-nmt {
     margin-top: 180px;
   }
   .header {
+    width: auto;
     padding-bottom: 0;
     margin-bottom: 0;
   }
@@ -1824,7 +1826,7 @@ nav ul li a:hover {
     padding-right: 5px;
     margin-top: 0;
     width: 280px;
-    height: 620px;
+    height: 630px;
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -1835,7 +1837,7 @@ nav ul li a:hover {
   #slider {
     top: 0;
     width: 280px;
-    height: 620px;
+    height: 630px;
     padding: 0;
     margin: 0;
     margin-left: auto;
@@ -1845,7 +1847,7 @@ nav ul li a:hover {
   #slides {
     top: 0;
     width: 280px;
-    height: 620px;
+    height: 630px;
     padding: 0;
     margin: 0;
     border: 0 solid #ccc;
@@ -1859,7 +1861,7 @@ nav ul li a:hover {
     padding-top: 0;
     top: 0;
     width: 280px;
-    height: 620px;
+    height: 630px;
     padding: 0;
     margin: 0;
     margin-left: auto;
@@ -1869,7 +1871,7 @@ nav ul li a:hover {
     margin-top: 0;
     padding-top: 0;
     width: 280px;
-    height: 620px;
+    height: 630px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1918,7 +1920,7 @@ nav ul li a:hover {
     filter: drop-shadow(30px 10px 4px hsla(240, 85%, 62%, 0.215));
   }
   .slide-img {
-    width: 180px;
+    width: 280px;
     height: 180px;
   }
   .img-slide-services {
@@ -1929,7 +1931,7 @@ nav ul li a:hover {
   #slides .inner {
     transition: margin-left 800ms cubic-bezier(0.77, 0, 0.175, 1);
     width: 400%;
-    height: 700px;
+    height: 630px;
     animation: slide 30s infinite alternate ease-in-out;
   }
   #slides .slide {
@@ -1974,7 +1976,7 @@ nav ul li a:hover {
   /*Servicios - fin*/
   /*Quienes somos - inicio*/
   .section-quienessomos {
-    width: 300px;
+    width: 280px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -2016,7 +2018,7 @@ nav ul li a:hover {
   /*Quienes somos - fin*/
   /*clientes - inicio*/
   .c-clientes {
-    width: 290px;
+    width: 280px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -2049,7 +2051,7 @@ nav ul li a:hover {
     width: calc(200px * 7);
   }
   .carrusel-clientes .carrusel-img {
-    width: 280;
+    width: 280px;
     padding: 20px;
   }
   .carrusel-clientes .carrusel-img img {
@@ -2068,19 +2070,21 @@ nav ul li a:hover {
 
   /* Clientes - final */
   .footer {
+    width: auto;
     padding: 0;
     margin: 0;
     background-color: #0b486b;
   }
   .footer__main {
-    padding-top: 20px;
+    padding-top: 40px;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 250px;
     padding-bottom: 40px;
+
   }
 
   .footer__right {
@@ -2088,7 +2092,7 @@ nav ul li a:hover {
     flex-direction: column;
     padding-bottom: 40px;
     align-items: center;
-    width: 200px;
+    width: 250px;
   }
 
   .footer__texto {
@@ -2109,6 +2113,7 @@ nav ul li a:hover {
   }
   .footer__logo {
     justify-content: center;
+    margin-bottom: 10px;
   }
   .footer__logo img {
     width: 150px;
@@ -2117,7 +2122,7 @@ nav ul li a:hover {
 
   .footer__rrss {
     display: flex;
-    width: 200px;
+    width: 250px;
     margin: 0;
     padding: 0;
     justify-content: center;
